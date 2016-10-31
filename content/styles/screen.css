@@ -1,0 +1,30 @@
+﻿th{
+    height:27px;
+    width:60px;
+    font-size:8.5px;
+    font-weight:bold;
+    text-align:right;
+}
+td{
+     width:60px;
+    height:27px;
+     font-size:8.5px;
+    font-weight:bold;
+    min-height:530px;
+    text-align:left;
+}
+caption
+{
+    font-size:14px;
+ height:27px;
+    font-weight:bold;
+}
+select{
+    border:none;
+    background-color:transparent;
+    font-size:11px;
+}
+tbody:nth-of-type(1) th::after
+{
+    content: ":";
+}
